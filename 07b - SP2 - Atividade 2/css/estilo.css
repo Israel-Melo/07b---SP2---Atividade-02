@@ -1,0 +1,164 @@
+/* CSS RESET */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/*cabeçalho*/
+
+header{
+    background-image: linear-gradient(to right, rgba(255,0,0,0), rgb(7, 6, 6));
+
+
+}
+
+/* icone-menu*/
+.icone-menu{
+
+    height: 25px;
+}
+
+.container-fluid{
+    width: 1200px;
+    margin: 0 auto;
+  
+}
+
+.navbar-collapse{
+    padding: 50px;
+    display: flex;
+    text-transform: uppercase;
+    
+        
+   
+}
+
+
+/*Conteudo principal*/
+
+main{
+    min-height: 500px;
+}
+
+
+/*banner*/
+#section-banners img{
+    height: 500px;
+}
+
+/*Produtos vendidos*/
+
+#section-vendidos {
+    text-align: center;
+}
+
+#section-vendidos h2{
+    font-weight: bold;
+    padding: 10px;
+}
+
+#section-vendidos img {
+    height: 300px;
+    border-radius: 10px;
+
+}
+
+#section-vendidos .preco {
+    color:red;
+    font-size: 18px;
+    font-weight: bold;
+}
+/*Rodapé*/
+
+
+
+.text-center {
+    background-image: linear-gradient(to right, rgba(255,0,0,0), rgb(7, 6, 6));
+    width: 1200px;
+    margin: 0 auto;
+    height: 280px;
+    padding-top: 20px;
+
+}
+
+.col {
+    
+    text-align: left;
+   
+
+}
+
+.col img,
+svg {
+  
+  justify-content: space-between;
+  vertical-align: middle;
+  height: 30px;
+  margin: 10px;
+  
+}
+
+ul {
+    list-style: none;
+    text-align: left;
+    padding: 0;
+    
+    
+}
+.col li{
+    list-style: none;
+    text-decoration: none;
+    text-align: left;
+
+}
+.col a{
+    color: black;
+    text-decoration: none;
+}
+
+.col a:hover{
+    color: red;
+
+}
+
+/*Botão Voltar topo*/
+
+#voltar-topo {
+    position: fixed;
+    bottom: 5px;
+    right: 50px;
+}
+
+/* página de login  */
+
+#section-login{
+    
+    margin-top: 100px;
+}
+
+#section-login h1{
+    
+   text-align: center;
+}
+
+#section-login input {
+    width: 100%;
+}
+
+
+/* Formulário de cadastro*/
+
+#section-cadastro{
+    padding: 5px;
+    text-align: center;
+    background-color: #fff;
+}
+
+#form-cadastrar {
+    padding: 50px;
+    display: none;
+
+}
+
+
+
